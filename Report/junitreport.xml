@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="73.797857">
+    <testcase classname="To validate the login fuctionality of amazon  application" name="To validate login fuctionality" time="57.654446">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When To launch url of amazon application....................................passed
+And To click the signin button..............................................passed
+And To pass the valid phone number..........................................passed
+And To click the contiue button.............................................passed
+Then To close the all browser...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the searchbox in myntra  application" name="To validate  serachbox fuctionality" time="16.143411">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When To launch url of myndra application....................................passed
+And To pass the text in searchbox...........................................passed
+Then To close the all browser...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

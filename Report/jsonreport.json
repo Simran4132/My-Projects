@@ -1,0 +1,207 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate login fuctionality",
+        "description": "",
+        "id": "to-validate-the-login-fuctionality-of-amazon--application;to-validate-login-fuctionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9169880700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "RegisterFb.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40051184300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch url of amazon application",
+            "match": {
+              "location": "amazonLogin.to_launch_url_of_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4395985000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the signin button",
+            "match": {
+              "location": "amazonLogin.to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047810100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the valid phone number",
+            "match": {
+              "location": "amazonLogin.to_pass_the_valid_phone_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "9787976543",
+                  "98645666",
+                  "abc@gmai.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2383179000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the contiue button",
+            "match": {
+              "location": "amazonLogin.to_click_the_contiue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598667600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the all browser",
+            "match": {
+              "location": "amazonLogin.to_close_the_all_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login fuctionality of amazon  application",
+    "description": "",
+    "id": "to-validate-the-login-fuctionality-of-amazon--application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/amazon.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To validate  serachbox fuctionality",
+        "description": "",
+        "id": "to-validate-the-searchbox-in-myntra--application;to-validate--serachbox-fuctionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3639981500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "RegisterFb.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10076629100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch url of myndra application",
+            "match": {
+              "location": "myndra.to_launch_url_of_myndra_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 659078400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the text in searchbox",
+            "match": {
+              "location": "myndra.to_pass_the_text_in_searchbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1765739000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To close the all browser",
+            "match": {
+              "location": "amazonLogin.to_close_the_all_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the searchbox in myntra  application",
+    "description": "",
+    "id": "to-validate-the-searchbox-in-myntra--application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/myntra.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
